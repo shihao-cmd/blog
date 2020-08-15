@@ -5,7 +5,7 @@
 <mapper namespace="com.blog.dao.CommentDao">
 
 
-    <resultMap id="comment" type="Comment">
+    <resultMap id="comment" type="com.blog.pojo.Comment">
         <id property="id" column="cid"/>
         <result property="nickname" column="nickname"/>
         <result property="email" column="email"/>
